@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.epicodus.madlibs.MadlibsForm"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/background"
+         />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/noun"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/colorTextIcons"
+        android:id="@+id/noun1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+         />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/adjective"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/colorTextIcons"
+        android:id="@+id/adjective1"
+        android:layout_below="@+id/noun1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+       />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/noun"
+        android:id="@+id/noun2"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/colorTextIcons"
+        android:layout_below="@id/adjective1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/colorTextIcons"
+        android:hint="@string/adverb"
+        android:id="@+id/adverb1"
+        android:layout_below="@id/noun2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/colorTextIcons"
+        android:hint="@string/verb"
+        android:id="@+id/verb1"
+        android:layout_below="@id/adverb1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/colorTextIcons"
+        android:hint="@string/name"
+        android:id="@+id/name1"
+        android:layout_below="@+id/verb1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/colorTextIcons"
+        android:hint="@string/adjective"
+        android:id="@+id/adjective2"
+        android:layout_below="@+id/name1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@color/colorTextIcons"
+        android:hint="@string/verb"
+        android:id="@+id/verb2"
+        android:layout_below="@+id/adjective2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/submit"
+        android:textAllCaps="false"/>
+
+
+</RelativeLayout>
