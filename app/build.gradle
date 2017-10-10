@@ -5,7 +5,6 @@ android {
     compileSdkVersion 26
     buildToolsVersion "26.0.2"
     defaultConfig {
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         applicationId "com.epicodus.madlibs"
         minSdkVersion 16
         targetSdkVersion 26
