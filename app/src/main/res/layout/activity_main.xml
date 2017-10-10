@@ -31,7 +31,7 @@
         app:layout_constraintVertical_bias="0.216"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintLeft_creator="1"
-        android:id="@+id/textView3"
+        android:id="@+id/title"
         android:layout_marginTop="91dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />

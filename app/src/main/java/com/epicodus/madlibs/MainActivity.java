@@ -12,7 +12,7 @@ import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     @Bind(R.id.island) TextView mIsland;
-    @Bind(R.id.textView3) TextView textView3;
+    @Bind(R.id.title) TextView mTitle;
     @Bind(R.id.find_madlibs_button) Button mfindMadLibsButton;
 
 
